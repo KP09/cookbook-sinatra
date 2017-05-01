@@ -1,0 +1,11 @@
+<form id="create">
+  Recipe name:<br>
+  <input type="text" name="name" id="name"><br>
+  Recipe description:<br>
+  <input type="text" name="description" id="description">
+  <input type="submit" value="Submit">
+</form>
+
+<% @recipes_array << Recipe.new(create.name, create.description) %>
+
+https://learn.co/lessons/sinatra-forms-params-readme-walkthrough

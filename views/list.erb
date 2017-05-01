@@ -1,0 +1,7 @@
+<ul>
+  <% @recipes_array.each_with_index do |recipe, index| %>
+    <li>
+      <%= "(#{index + 1}) #{recipe.name}: #{recipe.descr}." %>
+    </li>
+  <% end %>
+</ul>
