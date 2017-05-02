@@ -1,8 +1,19 @@
 p {
-  color: red;
+  color: #0080FF;
   font-size: 18px;
 }
 
-li {
+button {
+  margin: auto;
   display: block;
+}
+
+.btn a {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.homepage {
+  text-align: center;
 }
